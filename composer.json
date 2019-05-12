@@ -1,0 +1,14 @@
+{
+  "name": "drupal/ppdb",
+  "type": "drupal-module",
+  "description": "Main module for PPDB",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/ppdb",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/ppdb",
+    "source": "http://cgit.drupalcode.org/ppdb"
+  },
+  "require": { }
+}

@@ -1,0 +1,7 @@
+name: 'PPDB'
+type: module
+description: 'Main module for PPDB'
+core: 8.x
+package: 'PPDB'
+dependencies:
+  - field

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ppdb.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ppdb_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ppdb module.
+    case 'help.page.ppdb':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Main module for PPDB') . '</p>';
+      return $output;
+
+    default:
+  }
+}
